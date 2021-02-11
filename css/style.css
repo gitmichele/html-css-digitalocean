@@ -1,0 +1,34 @@
+/* DEBUG:  */
+
+/* HEADER */
+header{
+    height: 80px;
+}
+
+
+/* JUMBOTRON */
+#ms_main_jumbotron{
+    background-color: blue;
+}
+
+#ms_main_jumbotron [class*="col-"]{
+    border: 1px solid black;
+    height: 400px;
+}
+
+#ms_second_jumbotron{
+    background-color: lightgray;
+}
+
+#ms_second_jumbotron .container > div:first-child{
+        height: 100px;
+}
+
+#ms_second_jumbotron [class*="col-"]{
+    border: 1px solid black;
+    height: 150px;
+}
+
+#ms_second_jumbotron .container > div:last-child{
+        height: 100px;
+}
