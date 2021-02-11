@@ -32,3 +32,46 @@ header{
 #ms_second_jumbotron .container > div:last-child{
         height: 100px;
 }
+
+
+/* DEPLOY AND SCALE */
+#ms_deploy_scale .container > div:first-child{
+    height: 200px;
+}
+
+#ms_deploy_scale [class*="col-"]{
+    border: 1px solid black;
+    height: 400px;
+}
+
+
+
+/* DESIGN */
+#ms_design{
+    background-color: lightgray;
+}
+
+#ms_design .container > div:first-child{
+    height: 200px;
+}
+
+#ms_design [class*="col-"]{
+    border: 1px solid black;
+    height: 400px;
+}
+
+#ms_design .container > div:last-child{
+    height: 150px;
+}
+
+
+
+/* FEATURES */
+#ms_features .container > div:first-child{
+    height: 100px;
+}
+
+#ms_features [class*="col-"]{
+    border: 1px solid black;
+    height: 200px;
+}
