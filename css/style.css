@@ -1,3 +1,20 @@
+/* REGOLE GENERALI */
+main section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#ms_second_jumbotron{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+footer{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+
 /* DEBUG:  */
 
 /* HEADER */
@@ -118,4 +135,16 @@ header{
 #ms_get_started{
     height: 250px;
     background-color: blue;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: darkblue;
+}
+
+footer [class*="col-"]{
+    border: 1px solid black;
+    height: 400px;
 }
