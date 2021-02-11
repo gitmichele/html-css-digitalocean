@@ -75,3 +75,47 @@ header{
     border: 1px solid black;
     height: 200px;
 }
+
+
+
+/* REGIONS */
+#ms_regions{
+    background-color: blue;
+}
+
+#ms_regions .container > div:first-child{
+    height: 100px;
+}
+
+#ms_regions [class*="col-"]{
+    border: 1px solid black;
+    height: 300px;
+}
+
+
+
+/* LOVE US */
+#ms_love_us{
+    background-color: lightgray;
+}
+
+#ms_love_us .container > div:first-child{
+    height: 100px;
+}
+
+#ms_love_us [class*="col-"]{
+    border: 1px solid black;
+    height: 400px;
+}
+
+#ms_love_us .container > div:last-child{
+    height: 150px;
+}
+
+
+
+/* GET STARTED */
+#ms_get_started{
+    height: 250px;
+    background-color: blue;
+}
