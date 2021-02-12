@@ -1,4 +1,9 @@
 /* REGOLE GENERALI */
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* margini e padding macrosrtuttura */
 main section{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -14,15 +19,80 @@ footer{
     padding-bottom: 48px;
 }
 
+/* testo e links */
+a{
+    text-decoration: none;
+}
 
-/* DEBUG:  */
-
-/* HEADER */
-header{
-    height: 80px;
+li{
+    list-style-type: none;
 }
 
 
+/* HEADER */
+header{
+    background-color: #fff;
+    height: 65px;
+    line-height: 65px;
+}
+
+header a{
+    color: hsl(221,93%,16%);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header li{
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+
+header a:hover{
+    color: #006aff;
+    text-decoration: none;
+}
+
+/* logo */
+#ms_logo img{
+    max-width: 172px;
+    margin-bottom: 8px;
+}
+
+/* navbar centrale e destra*/
+#ms_central_nav, #ms_right_nav{
+    padding: 0;
+}
+
+#ms_right_nav{
+    text-align: right;
+}
+
+#ms_sign_up{
+    padding: 6px 10px;
+    color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+}
+
+#ms_sign_up:hover{
+    color: #fff;
+    background-color: #006aff;
+}
+
+/* burger menu */
+#ms_burger{
+    text-align: right;
+}
+
+#ms_burger .fa-bars{
+    font-size: 20px;
+    color: #006aff99;
+}
+
+
+
+/* DEBUG:  */
 /* JUMBOTRON */
 #ms_main_jumbotron{
     background-color: blue;
