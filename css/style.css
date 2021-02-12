@@ -9,7 +9,7 @@ main section{
     padding-bottom: 120px;
 }
 
-#ms_second_jumbotron{
+#ms_main_jumbotron, #ms_second_jumbotron{
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -28,6 +28,20 @@ li{
     list-style-type: none;
 }
 
+.ms_gray_text{
+    color: #5b6987;
+}
+
+.ms_white_text{
+    color: #fff;
+}
+
+.ms_subtitle{
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 20px;
+}
+
 
 /* HEADER */
 header{
@@ -44,7 +58,6 @@ header a{
 
 header li{
     display: inline-block;
-    padding-right: 1rem;
 }
 
 
@@ -64,8 +77,16 @@ header a:hover{
     padding: 0;
 }
 
+#ms_central_nav li{
+    padding-right: 1rem;
+}
+
 #ms_right_nav{
     text-align: right;
+}
+
+#ms_right_nav li{
+    padding-left: 1rem;
 }
 
 #ms_sign_up{
@@ -92,15 +113,90 @@ header a:hover{
 
 
 
-/* DEBUG:  */
+
 /* JUMBOTRON */
+/* MAIN JUMBOTRON */
 #ms_main_jumbotron{
-    background-color: blue;
+    background-image: linear-gradient(0deg, #00000060,  #00000060), url(https://www.digitalocean.com/assets/community/illustrations/DigitalOcean_Community-e00e73a18df20667c3117725e727f3ade330204dff619ad8153050ded7341627.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-#ms_main_jumbotron [class*="col-"]{
-    border: 1px solid black;
-    height: 400px;
+#ms_main_jumbotron p{
+    font-size: 24px;
+    color: lightgray;
+}
+
+#ms_main_jumbotron h1{
+    font-size: 58px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+
+#ms_main_jumbotron form{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 24px 14px 16px 14px;
+}
+
+#ms_main_jumbotron h3{
+    color: hsl(221,93%,16%);
+    text-align: center;
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 28px;
+}
+#ms_main_jumbotron h3 span{
+    color: #006aff;
+}
+
+#ms_main_jumbotron .form-control{
+    padding: 24px;
+    border: 1px solid rgb(229, 232, 237);
+    border-radius: 3px;
+    font-size: 16px;
+    color: rgb(3, 27, 78);
+}
+
+.ms_jumbo_button {
+    width: 100%;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#ms_main_jumbotron input[type="submit" i]{
+    border-color: #4c8bf5;
+    border-style: none;
+    color: #fff;
+    background-color:  #4c8bf5;
+}
+form button{
+    position: relative;
+    background-color: #fff;
+    border-style: none;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+.ms_jumbo_button img{
+    width: 20px;
+    position: absolute;
+    left: 10px;
+}
+
+#ms_main_jumbotron form p{
+    font-size: 12px;
+    color: hsl(221,93%,16%);
+    text-align: center;
+    font-weight: 400;
+}
+
+#ms_main_jumbotron form p > a{
+    color: #006aff;
+    text-decoration: underline;
 }
 
 #ms_second_jumbotron{
@@ -121,6 +217,7 @@ header a:hover{
 }
 
 
+/* DEBUG:  */
 /* DEPLOY AND SCALE */
 #ms_deploy_scale .container > div:first-child{
     height: 200px;

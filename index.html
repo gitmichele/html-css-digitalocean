@@ -30,7 +30,6 @@
 
         <!-- HEADER -->
         <header>
-
             <div class="container">
                 <div class="row">
 
@@ -70,6 +69,7 @@
                         </ul>
                     </div>
 
+                    <!-- navbar di destra -->
                     <div class="hidden-xs hidden-sm hidden-md col-lg-4">
                         <ul id="ms_right_nav">
                             <li>
@@ -98,6 +98,7 @@
                         </ul>
                     </div>
 
+                    <!-- burger -->
                     <div id="ms_burger" class="col-xs-6 col-sm-6 col-md-6 hidden-lg">
                         <a href="#">
                             <i class="fas fa-bars"></i>
@@ -105,23 +106,58 @@
                     </div>
                 </div>
             </div>
-
         </header>
 
         <!-- JUMBOTRON DIVISO IN DUE PARTI -->
         <section id="ms_jumbotron">
 
-            <!-- JMIN JUMBOTRON -->
-            <div id="ms_main_jumbotron">
+            <!-- MAIN JUMBOTRON -->
+            <div class="base64" id="ms_main_jumbotron">
                 <div class="container">
                     <!-- due colonne jumbotron principale -->
                     <div class="row">
-                        <div class="col-xs-12 col-md-7">
+                        <div class="ms_overlay">
+                            <div class="col-xs-12 col-md-7">
+                                <h1 class="ms_white_text">
+                                    The simplest cloud platform for developers <span>&amp;</span> teams
+                                </h1>
 
+                                <p class="ms_subtitle">
+                                    Deploy, manage and scale cloud application faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses. whether your running one virtual machine or ten thousands
+                                </p>
+                            </div>
                         </div>
 
                         <div class="col-xs-12 col-md-5">
+                            <!-- BS horizontal form -->
+                            <form class="form-horizontal">
+                                <h3>
+                                    Deploy your app in seconds.
+                                    <br>
+                                    <span>Get started now.</span>
+                                </h3>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    </div>
+                                </div>
 
+                                <input class="ms_jumbo_button" type="submit" name="" value="Create your account">
+
+                                <button class="ms_jumbo_button" type="button" name="button">
+                                    <img src="img/google-icon.png" alt="Google logo">
+                                    Sign up with google
+                                </button>
+
+                                <p>
+                                    By signing up you agree to the <a href="#">terms of service</a>
+                                </p>
+                            </form>
                         </div>
                     </div>
                 </div>
