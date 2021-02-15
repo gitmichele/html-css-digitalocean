@@ -33,6 +33,8 @@ h2{
     font-size: 36px;
     line-height: 110%;
     font-weight: 700;
+    text-align: center;
+    margin-top: 0;
 }
 
 h4{
@@ -40,6 +42,7 @@ h4{
     font-size: 18px;
     letter-spacing: 0px;
     font-weight: 500;
+    margin: 25px 0 10px 0;
 }
 
 .ms_small_p{
@@ -63,7 +66,9 @@ h4{
 .ms_subtitle{
     font-weight: 500;
     line-height: 150%;
-    font-size: 20px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 70px;
 }
 
 .ms_link{
@@ -75,6 +80,8 @@ h4{
 .fa-angle-right{
     padding-left: 5px;
 }
+
+
 
 /* HEADER */
 header{
@@ -266,42 +273,59 @@ button img{
     text-align: center;
 }
 
+#ms_second_jumbotron .ms_link a:hover{
+    color: #006aff;
+    text-decoration: none;
+}
 
 
 
-/* DEBUG:  */
+
 /* DEPLOY AND SCALE */
-#ms_deploy_scale .container > div:first-child{
-    height: 200px;
+/* tolgo 30px ai 120 di default perche devo aggiungere 30px di margin bottom ai blocchi interni */
+#ms_deploy_scale{
+    padding-bottom: 90px;
 }
 
-#ms_deploy_scale [class*="col-"]{
-    border: 1px solid black;
-    height: 400px;
+/* colonna destra - lista */
+#ms_deploy_scale ul{
+    padding-inline-start: 0;
 }
+
+#ms_deploy_scale li a{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#ms_deploy_scale li{
+    padding: 15px 20px;
+    border-left: 2px solid lightgray
+}
+
+#ms_deploy_scale .ms_margin_bottom{
+    margin-bottom: 30px;
+}
+
 
 
 
 /* DESIGN */
 #ms_design{
-    background-color: lightgray;
+    background-color: rgb(243, 245, 249);
 }
 
-#ms_design .container > div:first-child{
-    height: 200px;
+#ms_design h2{
+    margin-bottom: 30px;
 }
 
-#ms_design [class*="col-"]{
-    border: 1px solid black;
-    height: 400px;
-}
-
-#ms_design .container > div:last-child{
-    height: 150px;
+#ms_design img{
+    width: 100%;
 }
 
 
 
+/* DEBUG:  */
 /* FEATURES */
 #ms_features .container > div:first-child{
     height: 100px;
@@ -311,6 +335,8 @@ button img{
     border: 1px solid black;
     height: 200px;
 }
+
+
 
 
 
