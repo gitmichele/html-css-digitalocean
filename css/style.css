@@ -352,7 +352,7 @@ button img{
 
 
 /* FEATURES */
-#ms_features .row{
+#ms_features .row > div{
     padding-top: 48px;
 }
 
@@ -361,22 +361,16 @@ button img{
 }
 
 
+
+
 /* REGIONS */
 #ms_regions{
-    background-color: blue;
-}
-
-#ms_regions .container > div:first-child{
-    height: 100px;
-}
-
-#ms_regions [class*="col-"]{
-    border: 1px solid black;
-    height: 300px;
+    background: url(https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg) 50% 50% / cover no-repeat rgb(3, 27, 78);
 }
 
 
 
+/* DEBUG:  */
 /* LOVE US */
 #ms_love_us{
     background-color: lightgray;
