@@ -91,6 +91,38 @@ h4{
 }
 
 
+/* slidesho */
+.ms_slideshow img{
+    width: 100%;
+}
+
+/* frecce laterali di selezione */
+.ms_slideshow i{
+    font-size: 45px;
+    padding: 0;
+}
+
+.ms_slideshow .row > div:first-child{
+    text-align: right;
+    color: #02062690;
+
+}
+
+/* testo sotto e pallini di selezione */
+.ms_slideshow > div:last-child{
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* BS link buttons */
+.ms_slideshow .btn-group-lg>.btn, .btn-lg{
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+
+
 
 /* HEADER */
 header{
@@ -325,34 +357,6 @@ button img{
     margin-bottom: 30px;
 }
 
-#ms_design img{
-    width: 100%;
-}
-
-/* frecce laterali di selezione */
-#ms_design i{
-    font-size: 45px;
-    padding: 0;
-}
-
-#ms_design .row > div:first-child{
-    text-align: right;
-    color: #02062690;
-
-}
-
-/* testo sotto e pallini di selezione */
-#ms_design .container > div:last-child{
-    text-align: center;
-    padding-top: 18px;
-}
-
-/* BS link buttons */
-#ms_design .btn-group-lg>.btn, .btn-lg{
-    border-radius: 50%;
-    padding: 5px;
-}
-
 
 
 
@@ -394,34 +398,79 @@ button img{
 }
 
 
+#ms_regions .ms_link a:hover{
+    color: #006aff;
+    text-decoration: none;
+}
 
-/* DEBUG:  */
+
+
+
+
 /* LOVE US */
 #ms_love_us{
-    background-color: lightgray;
+    background-color: rgb(243, 245, 249);
 }
 
-#ms_love_us .container > div:first-child{
-    height: 100px;
+#ms_love_us h2{
+    margin-bottom: 90px;
 }
 
-#ms_love_us [class*="col-"]{
-    border: 1px solid black;
-    height: 400px;
+/* contenitore i"immagine slideshow */
+#ms_rockerbox{
+    text-align: center;
+    background-color: #fff;
+    padding: 15% 0;
+    border-radius: 10px;
 }
 
-#ms_love_us .container > div:last-child{
-    height: 150px;
+/* margini e posizionamento interni al contenitore */
+#ms_rockerbox img{
+    max-width: 50%;
+}
+
+#ms_rockerbox > p.ms_gray_text.ms_subtitle{
+    margin: 18px auto;
+}
+
+#ms_rockerbox > p.ms_darkblue_text{
+    margin: 0 auto;
+}
+
+#ms_rockerbox .fa-angle-right{
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+#ms_love_us .ms_link{
+    margin-top: 36px;
 }
 
 
 
-/* DEBUG:  */
 /* GET STARTED */
 #ms_get_started{
-    height: 250px;
-    background-color: blue;
+    background-color: rgb(0, 105, 255);
+    text-align: center;
 }
+
+/* bottone create your account */
+#ms_get_started > div div:last-child{
+    margin-top: 48px;
+}
+
+#ms_get_started > div div:last-child a{
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+#ms_get_started > div div:last-child a:hover{
+    text-decoration: none;
+    background-color: #DFDFDF;
+}
+
 
 
 
