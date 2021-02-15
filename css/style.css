@@ -5,8 +5,8 @@ body{
 
 /* margini e padding macrosrtuttura */
 main section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 #ms_main_jumbotron, #ms_second_jumbotron{
@@ -45,6 +45,10 @@ h4{
     margin: 25px 0 10px 0;
 }
 
+.ms_opacity{
+    opacity: .7;
+}
+
 .ms_small_p{
     font-size: 16px;
     line-height: 160%;
@@ -67,14 +71,19 @@ h4{
     font-weight: 500;
     line-height: 150%;
     font-size: 22px;
-    text-align: center;
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .ms_link{
     color: rgb(0, 105, 255);
     text-align: center;
     font-weight: 500;
+}
+
+.ms_link a:hover{
+    color: #006aff;
+    text-decoration: none;
 }
 
 .fa-angle-right{
@@ -165,7 +174,7 @@ header a:hover{
 /* colonna dx testo */
 #ms_main_jumbotron p{
     font-size: 24px;
-    color: lightgray;
+    text-align: left;
 }
 
 #ms_main_jumbotron h1{
@@ -273,10 +282,7 @@ button img{
     text-align: center;
 }
 
-#ms_second_jumbotron .ms_link a:hover{
-    color: #006aff;
-    text-decoration: none;
-}
+
 
 
 
@@ -284,7 +290,7 @@ button img{
 /* DEPLOY AND SCALE */
 /* tolgo 30px ai 120 di default perche devo aggiungere 30px di margin bottom ai blocchi interni */
 #ms_deploy_scale{
-    padding-bottom: 90px;
+    padding-bottom: 60px;
 }
 
 /* colonna destra - lista */
@@ -366,6 +372,25 @@ button img{
 /* REGIONS */
 #ms_regions{
     background: url(https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg) 50% 50% / cover no-repeat rgb(3, 27, 78);
+}
+
+#ms_regions table{
+    font-size: 13px;
+}
+
+/* tolgo bordo superiore prima riga */
+#ms_regions .table > tbody > tr:first-child > td{
+    border-top: none;
+}
+
+/* colore e allineamento link a dx */
+#ms_regions .ms_link a{
+    color: rgb(0, 215, 210);
+
+}
+
+#ms_regions .ms_link{
+    text-align: right;
 }
 
 
