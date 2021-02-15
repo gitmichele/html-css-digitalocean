@@ -46,7 +46,7 @@ h4{
 }
 
 .ms_opacity{
-    opacity: .7;
+    opacity: .6;
 }
 
 .ms_small_p{
@@ -476,10 +476,14 @@ button img{
 
 /* FOOTER */
 footer{
-    background-color: darkblue;
+    font-size: 16px;
+    background-color: hsl(220,95%,8%);
 }
 
-footer [class*="col-"]{
-    border: 1px solid black;
-    height: 400px;
+footer img{
+    margin-bottom: 10px;
+}
+
+footer .row > div:first-child ul li{
+    display: inline-block;
 }
