@@ -1,0 +1,17 @@
+/* SEZIONE DESIGN */
+/* setto altezza prestabilita per centrare le frecce di scroll */
+/* il dato in px corrisponde all-altezza dell'img centrale in base alla MQ di BS */
+@media all and (min-width: 1200px) {
+    #ms_design .row > div:first-child,
+    #ms_design .row > div:last-child{
+        line-height: 360.19px;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    #ms_design .row > div:first-child,
+    #ms_design .row > div:last-child{
+        line-height: 295.28px;
+
+    }
+}
