@@ -326,10 +326,13 @@ button img{
 /* frecce laterali di selezione */
 #ms_design i{
     font-size: 45px;
+    padding: 0;
 }
 
-#ms_design .row > div:first-child i{
+#ms_design .row > div:first-child{
+    text-align: right;
     color: #02062690;
+
 }
 
 /* testo sotto e pallini di selezione */
@@ -348,19 +351,14 @@ button img{
 
 
 
-
-/* DEBUG:  */
 /* FEATURES */
-#ms_features .container > div:first-child{
-    height: 100px;
+#ms_features .row{
+    padding-top: 48px;
 }
 
-#ms_features [class*="col-"]{
-    border: 1px solid black;
-    height: 200px;
+#ms_features .ms_link{
+    text-align: left;
 }
-
-
 
 
 /* REGIONS */
@@ -399,6 +397,7 @@ button img{
 
 
 
+/* DEBUG:  */
 /* GET STARTED */
 #ms_get_started{
     height: 250px;
