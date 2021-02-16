@@ -609,10 +609,6 @@ footer li a:hover{
 }
 
 /* messaggio help */
-.none{
-    display: inline-block;
-}
-
 #ms_chatbot .ms_help_container{
     display: inline-block;
     width: 300px;
@@ -636,4 +632,12 @@ footer li a:hover{
 	left: -14px;
     border-top: 2px solid hsl(220,95%,8%);
     border-right: 2px solid hsl(220,95%,8%);
+}
+
+#ms_chatbot:hover .ms_pointer,.ms_help_container{
+    display: none;
+}
+
+#ms_chatbot:hover .ms_help_container{
+    display: none;
 }

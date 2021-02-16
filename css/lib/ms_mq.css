@@ -27,6 +27,7 @@
     }
 }
 
+
 /* FOOTER */
 /* tolgo il padding inline start dalle liste di link quando stringo la pagina sotto lg. */
 @media all and (max-width: 1199px) {
@@ -34,3 +35,11 @@
         padding-inline-start: 0;
     }
 }
+
+
+/* CHATOBOT */
+/* messaggio help scompare per schermi piu piccoli per non ingombrare troppo vp */
+@media all and (max-width: 1199px) {
+    #ms_chatbot .ms_help_container, #ms_chatbot .ms_pointer{
+        display: none;
+    }
