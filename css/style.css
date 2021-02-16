@@ -90,22 +90,33 @@ h4{
     padding-left: 5px;
 }
 
-
-/* slidesho */
-.ms_slideshow img{
-    width: 100%;
+/* slideshow */
+/* restringo img rispetto al container per posizionare le frecce */
+.ms_slideshow_container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: center;
 }
 
-/* frecce laterali di selezione */
-.ms_slideshow i{
-    font-size: 45px;
+/* frecce */
+.ms_slideshow_container > a{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.ms_slideshow_container > a:first-of-type{
+    left: 0;
+}
+
+.ms_slideshow_container > a:last-of-type{
+    right: 0;
+}
+
+.ms_slideshow_container > a > i{
+    font-size: 55px;
     padding: 0;
-}
-
-.ms_slideshow .row > div:first-child{
-    text-align: right;
-    color: #02062690;
-
 }
 
 /* testo sotto e pallini di selezione */
@@ -115,11 +126,10 @@ h4{
 }
 
 /* BS link buttons */
-.ms_slideshow .btn-group-lg>.btn, .btn-lg{
+.ms_slideshow .btn-group-lg > .btn, .btn-lg{
     border-radius: 50%;
     padding: 5px;
 }
-
 
 
 
@@ -366,6 +376,9 @@ button img{
     margin-bottom: 30px;
 }
 
+.ms_slideshow_container > img{
+    width: 85%;
+}
 
 
 
@@ -427,13 +440,14 @@ button img{
 
 /* contenitore i"immagine slideshow */
 #ms_rockerbox{
-    text-align: center;
     background-color: #fff;
     padding: 15% 0;
     border-radius: 10px;
+    display: inline-block;
+    width: 85%;
+    margin: auto;
 }
 
-/* margini e posizionamento interni al contenitore */
 #ms_rockerbox img{
     max-width: 50%;
 }
