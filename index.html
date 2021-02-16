@@ -236,75 +236,76 @@
                     <div class="row">
                         <!-- colonna sx con navbar verticale -->
                         <div class="col_xs_12 col-sm-3 col-sm-offset-1">
-                            <ul class="ms_margin_bottom">
                                 <li>
-                                    <a href="#">Deploy</a>
+                                    <a class="ms_darkblue_text" href="#">Deploy</a>
                                 </li>
                                 <li>
-                                    <a href="#">Scale</a>
+                                    <a class="ms_gray_text" href="#">Scale</a>
                                 </li>
                                 <li>
-                                    <a href="#">Store</a>
+                                    <a class="ms_gray_text" href="#">Store</a>
                                 </li>
                                 <li>
-                                    <a href="#">Secure</a>
+                                    <a class="ms_gray_text" href="#">Secure</a>
                                 </li>
                                 <li>
-                                    <a href="#">Monitor</a>
+                                    <a class="ms_gray_text" href="#">Monitor</a>
                                 </li>
                             </ul>
                         </div>
 
-                        <!-- due colonne a dx con due blocchi di testo -->
-                        <div class="col_xs_12 col-sm-6 col-sm-offset-2 col-md-4 col-md-4 col-md-offset-0">
-                            <div class="ms_margin_bottom">
-                                <figure>
-                                    <img src="img/cluster-deploy.svg" alt="icon">
-                                </figure>
+                        <!-- colonna a dx con 4 blocchi di testo -->
+                        <div class="col_xs_12 col-sm-8">
+                            <div class="row">
+                                <div class="col_xs_12 col-md-6">
+                                    <figure>
+                                        <img src="img/cluster-deploy.svg" alt="icon">
+                                    </figure>
 
-                                <h4>Cluster deployment</h4>
+                                    <h4>Cluster deployment</h4>
 
-                                <p class="ms_small_p">
-                                    Provision multiple droplets (virtual machines) in seconds with our control panel. CLI, or directly against our API.
-                                </p>
+                                    <p class="ms_small_p">
+                                        Provision multiple droplets (virtual machines) in seconds with our control panel. CLI, or directly against our API.
+                                    </p>
+                                </div>
+
+                                <div class="col_xs_12 col-md-6">
+                                    <figure>
+                                        <img src="img/optimized-compute.svg" alt="icon">
+                                    </figure>
+
+                                    <h4>Optimized compute types</h4>
+
+                                    <p class="ms_small_p">
+                                        get the compute resources you need with Standard or Optimized Droplets.
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="ms_margin_bottom">
-                                <figure>
-                                    <img src="img/cluster-deploy.svg" alt="icon">
-                                </figure>
+                            <div class="row">
+                                <div class="col_xs_12 col-md-6">
+                                    <figure>
+                                        <img src="img/one-click.svg" alt="icon">
+                                    </figure>
 
-                                <h4>Customer deployment</h4>
+                                    <h4>One-click apps</h4>
 
-                                <p class="ms_small_p">
-                                    Provision multiple droplets (virtual machines) in seconds with our control panel. CLI, or directly against our API.
-                                </p>
-                            </div>
-                        </div>
+                                    <p class="ms_small_p">
+                                        Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.
+                                    </p>
+                                </div>
 
-                        <div class="col_xs_12 col-sm-6 col-sm-offset-6 col-md-4 col-md-4 col-md-offset-0">
-                            <div class="ms_margin_bottom">
-                                <figure>
-                                    <img src="img/cluster-deploy.svg" alt="icon">
-                                </figure>
+                                <div class="col_xs_12 col-md-6">
+                                    <figure>
+                                        <img src="img/global.svg" alt="icon">
+                                    </figure>
 
-                                <h4>Customer deployment</h4>
+                                    <h4>Global Avaiability</h4>
 
-                                <p class="ms_small_p">
-                                    Provision multiple droplets (virtual machines) in seconds with our control panel. CLI, or directly against our API.
-                                </p>
-                            </div>
-
-                            <div>
-                                <figure>
-                                    <img src="img/cluster-deploy.svg" alt="icon">
-                                </figure>
-
-                                <h4>Customer deployment</h4>
-
-                                <p class="ms_small_p">
-                                    Provision multiple droplets (virtual machines) in seconds with our control panel. CLI, or directly against our API.
-                                </p>
+                                    <p class="ms_small_p">
+                                        Deploy to any of our data center regions around the world.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -698,14 +699,19 @@
         <footer>
             <div class="container">
                 <!-- cinque colonne -->
-                <div class="row">
+                <div class="row row-no-gutters">
                     <div class="col-xs-12 col-lg-4">
-                        <img src="img/logo-small.svg" alt="small logo">
-                        
+                        <a href="#"><img src="img/logo-small.svg" alt="small logo"></a>
+
                         <p class="ms_white_text ms_opacity">
                         <b><span>&copy;</span> 2018 DigitalOcean, LCC. All rights reserved.</b>
                         </p>
 
+                        <p class="ms_white_text">
+                            Proudly made in NY
+                        </p>
+
+                        <!-- lista social -->
                         <ul>
                             <li>
                                 <a class="ms_white_text ms_opacity" href="#">
@@ -740,19 +746,239 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-lg-2">
+                        <ul>
+                            <li>
+                                <b class="ms_white_text">Company</b>
+                            </li>
 
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    About
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Leadership
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Link
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Blog
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Careers
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Partner Network
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Referral Program
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Events
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Press
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Legal <span>&amp;</span> Security
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-lg-2">
+                        <ul>
+                            <li>
+                                <b class="ms_white_text">Products</b>
+                            </li>
 
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Droplets
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Spacers
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Kubernets
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Load Balancers
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Block Storage
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Tools <span>&amp;</span> Integrations
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    One-click Apps
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    API
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Pricing
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Documentation
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Release Notes
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-lg-2">
+                        <ul>
+                            <li>
+                                <b class="ms_white_text">Community</b>
+                            </li>
 
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Tutorials
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Meetups
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Q<span>&amp;</span>A
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Write for Donations
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Droplets for Demons
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Hatch
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Shop Swag
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Research Program
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Current Researches
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Open Source
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-lg-2">
+                        <ul>
+                            <li>
+                                <b class="ms_white_text">Support</b>
+                            </li>
 
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Contact Support
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="ms_white_text ms_opacity" href="#">
+                                    Network Status
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 

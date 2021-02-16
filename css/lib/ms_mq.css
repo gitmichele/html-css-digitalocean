@@ -22,3 +22,28 @@
         height: 400.20px;
     }
 }
+
+
+/* DEPLOY SCALE */
+/* quando stringo e gli elementi si riposizionano. prendono tutti il margine bottom per distanziarsi tranne l'ultimo elemento in modo che il margin bottom dell'elemento stersso non vada a sommarsi al padding generale della section, creando asimmetria con le altre */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #ms_deploy_scale .container > .row > div:first-of-type,
+    #ms_deploy_scale .container > .row > div:last-of-type > .row:last-of-type > div:first-of-type{
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 768px){
+    #ms_deploy_scale .container > .row > div:first-of-type,
+    #ms_deploy_scale .container > .row > div:last-of-type > .row:last-of-type > div:first-of-type{
+        margin-bottom: 30px;
+    }
+}
+
+/* FOOTER */
+/* tolgo il padding inline start dalle liste di link quando stringo la pagina sotto lg. */
+@media all and (max-width: 1199px) {
+    footer ul{
+        padding-inline-start: 0;
+    }
+}

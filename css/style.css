@@ -46,7 +46,7 @@ h4{
 }
 
 .ms_opacity{
-    opacity: .6;
+    opacity: .7;
 }
 
 .ms_small_p{
@@ -197,7 +197,7 @@ header a:hover{
 /* JUMBOTRON */
 /* MAIN JUMBOTRON */
 #ms_main_jumbotron{
-    background-image: linear-gradient(0deg, #00000060,  #00000060), url(https://www.digitalocean.com/assets/community/illustrations/DigitalOcean_Community-e00e73a18df20667c3117725e727f3ade330204dff619ad8153050ded7341627.jpg);
+    background-image: url(../img/jumbo.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -331,20 +331,29 @@ button img{
 }
 
 #ms_deploy_scale li a{
-    color: gray;
     font-size: 20px;
     font-weight: 500;
 }
 
+#ms_deploy_scale li a:hover{
+    text-decoration: none;
+}
+
 #ms_deploy_scale li{
     padding: 15px 20px;
-    border-left: 2px solid lightgray
+    border-left: 2px solid lightgray;
 }
 
-#ms_deploy_scale .ms_margin_bottom{
+#ms_deploy_scale li:first-of-type{
+    border-left: 2px solid #020626;;
+}
+
+/* margini verticali */
+/* prendo tutti i blocchi tranne l */
+
+#ms_deploy_scale .container > .row > div:last-of-type > .row:first-of-type > div{
     margin-bottom: 30px;
 }
-
 
 
 
@@ -480,10 +489,46 @@ footer{
     background-color: hsl(220,95%,8%);
 }
 
-footer img{
-    margin-bottom: 10px;
+/* margini scritte copyright */
+footer .row > div:first-child p:first-of-type{
+    margin: 10px auto 0 auto;
 }
 
+footer .row > div:first-child p:last-of-type{
+    opacity: .5;
+}
+
+/* lista social */
 footer .row > div:first-child ul li{
     display: inline-block;
+    font-size: 24px;
+    padding-right: 15px;
+}
+
+footer .row > div:first-child ul{
+    padding-inline-start: 0;
+}
+
+/* liste links */
+/* abbasso le liste rispetto alla colonna a sx */
+footer .row > div:nth-child(1n+2) ul{
+    margin-top: 25px;
+}
+
+/* paddo i singoli elementi in verticale */
+footer .row > div:nth-child(1n+2) ul li{
+    padding-bottom: 10px;
+}
+
+/* elemento di testa delle liste */
+footer .row > div:nth-child(1n+2) ul li:first-of-type{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+/* hover settings */
+footer li a:hover{
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
 }
